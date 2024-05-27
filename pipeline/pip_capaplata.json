@@ -1,0 +1,30 @@
+{
+	"name": "pip_capaplata",
+	"properties": {
+		"activities": [
+			{
+				"name": "Bronce_a_Plata",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/u22321049@utp.edu.pe/Transferir datos de la capa bronce a capa plata"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks_capaplata",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2024-05-27T17:52:33Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

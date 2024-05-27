@@ -1,0 +1,9 @@
+{
+	"name": "factoriaarcaya",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c01d7422-6198-4527-964b-3dd36e824b3b",
+		"tenantId": "c4a66c34-2bb7-451f-8be1-b2c26a430158"
+	}
+}
